@@ -49,34 +49,54 @@
                 <div class="two-lines">
                   <div class="first-line">
                     <label for="First-name">First Name</label>
-                    <input type="text" name="First-name" id="First-name" placeholder="First-name"/>
+                    <input
+                      type="text"
+                      name="First-name"
+                      id="First-name"
+                      placeholder="First-name"
+                    />
                   </div>
                   <div class="first-line">
                     <label for="Last-name">Last Name</label>
-                    <input type="text" name="Last-name" id="Last-name" placeholder="Last name"/>
+                    <input
+                      type="text"
+                      name="Last-name"
+                      id="Last-name"
+                      placeholder="Last name"
+                    />
                   </div>
                 </div>
+
                 <div class="single-line">
                   <label for="E-mail">E-mail</label>
-                  <input type="email" name="E-mail" id="email" placeholder="johndoe@gmail.com"/>
+                  <input
+                    type="email"
+                    name="E-mail"
+                    id="email"
+                    placeholder="johndoe@gmail.com"
+                  />
                 </div>
               </div>
               <div class="Payment-information">
                 <h2><span class="number">2</span> Your Personal Information</h2>
-                <div class="single-line">
+                <div class="single-line" id="card-line">
                   <label for="card">Credit Card</label>
-                  <input
-                    type="tel"
-                    name="E-mail"
-                    id="email"
-                    placeholder="Card Number"
-                  />
+                  <div class="card-line">
+                    <input
+                      type="tel"
+                      name="E-mail"
+                      id="email"
+                      placeholder="Card Number"
+                    />
+                    <input type="text" placeholder="MM/YY" id="CVV"/>
+                    <input type="text" placeholder="CVV" id="CVV"/>
+                  </div>
                 </div>
               </div>
               <div class="submit-section">
                 <button>Buy WP Pusher</button>
                 <p>
-                  <span class="bold">Need any Help?</span> Dont hesitate to
+                  <span class="bold"> <span class="mark">?</span> Need any Help?</span> Dont hesitate to
                   <a href="#">Contact Support</a>
                 </p>
                 <img src="./images/Shape.png" alt="" />
@@ -86,10 +106,10 @@
         </div>
 
         <div class="right-box">
-          <div class="top-text">
-            <div class="top-half">
+          <section class="top-text">
+            <section class="top-half">
               <p class="freelancer">Freelancer</p>
-              <h4>$99<span class="year">/ year</span></h4>
+              <h4><sup>$</sup>99<span class="year">/ year</span></h4>
               <p id="italic-text">automatically renews after 1 year</p>
               <!--Make this text italics-->
               <div class="line-text">
@@ -106,8 +126,8 @@
               </div>
               <p>Need <b>20</b> client sites?</p>
               <a href="#">Switch to the Agency plan</a>
-            </div>
-          </div>
+            </section>
+          </section>
           <div class="bottom-text">
             <div class="bottom half">
               <p>
